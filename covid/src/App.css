@@ -1,0 +1,52 @@
+.app__header{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.card-style{
+  
+    display: flex;
+    justify-content:space-around
+  }
+
+  .app {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f5f6fa;
+    /* padding: 20px; */
+  }
+
+  .left{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 40px;
+    flex-direction: column;
+  }
+
+
+  .country-style{
+    
+    margin: 20px 80px 20px 140px;
+  }
+  /* .rightpanel {
+    flex: 0.9 ;
+  } */
+
+.population{
+  display: flex;
+  flex-direction: column;
+margin-top: 40px;
+margin-right: 400px;
+  width: 300px;
+  text-align: center;
+  margin-left: 500px;
+border-radius: 2px;
+border-color: black;
+}
+
+.rightpanel{
+  display: flex;
+  flex-direction: column;
+}
